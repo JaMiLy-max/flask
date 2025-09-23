@@ -56,5 +56,6 @@
 
 
 ### 결과화면
+[swagger](https://github.com/JaMiLy-max/flask/blob/main/day2/%EC%A0%9C%EC%B6%9C/My%20API.pdf)
 
-
+[postMan](https://github.com/JaMiLy-max/flask/blob/main/day2/%EC%A0%9C%EC%B6%9C/postMan.pdf)

@@ -10,7 +10,12 @@ from .config import Config
         테이블 정의를 위한 세션 연결
 '''
 # TODO: DB 연결 엔진을 생성하세요 (create_engine)
-engine = create_engine(Config.SQLALCHEMY_DATABASE_URI, echo=True)
+# engine = create_engine(Config.SQLALCHEMY_DATABASE_URI, echo=True)
+engine = create_engine(
+    Config.SQLALCHEMY_DATABASE_URI,
+    echo=True,
+    connect_args=Config.CONNECT_ARGS
+)
 
 # TODO: 세션(SessionLocal) 객체를 만드세요 (scoped_session)
 '''
